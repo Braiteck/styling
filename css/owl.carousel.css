@@ -828,6 +828,88 @@
 
 
 
+.tags_cloud .owl-carousel .owl-nav button
+{
+    top: 50%;
+    bottom: auto;
+
+    width: 40px;
+    height: 32px;
+    margin-top: -16px;
+}
+
+.tags_cloud .owl-carousel .owl-nav button.owl-prev
+{
+    left: -8px;
+
+    margin-left: 0;
+}
+
+.tags_cloud .owl-carousel .owl-nav button.owl-next
+{
+    right: -8px;
+
+    margin-right: 0;
+
+    transform: rotate(-180deg);
+}
+
+.tags_cloud .owl-carousel .owl-nav button:before
+{
+    position: absolute;
+    top: 0;
+    right: auto;
+    bottom: 0;
+    left: 50%;
+
+    display: block;
+
+    width: 2px;
+    height: 20px;
+    margin-left: 2px;
+
+    content: '';
+    transition: background .2s linear;
+    transform: none;
+
+    background: #b5b5b5;
+}
+
+.tags_cloud .owl-carousel .owl-nav button:after
+{
+    position: absolute;
+    top: 0;
+    right: auto;
+    left: 50%;
+
+    display: block;
+
+    width: 14px;
+    height: 14px;
+    margin-left: -5px;
+
+    content: '';
+    transition: border-color .2s linear;
+    transform: rotate(-45deg);
+
+    border-top: 2px solid #b5b5b5;
+    border-left: 2px solid #b5b5b5;
+    background: none;
+}
+
+.tags_cloud .owl-carousel .owl-nav button:hover:before
+{
+    background: #f81a2c;
+}
+
+.tags_cloud .owl-carousel .owl-nav button:hover:after
+{
+    border-color: #f81a2c;
+    background: none;
+}
+
+
+
 .owl-dots
 {
     position: absolute;

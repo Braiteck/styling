@@ -466,6 +466,27 @@
 
 
 
+    .tags_cloud
+    {
+        margin-bottom: 32px !important;
+    }
+
+
+    .tags_cloud .flex
+    {
+        margin-bottom: -8px;
+        margin-left: -8px;
+    }
+
+    .tags_cloud .flex > *
+    {
+        max-width: calc(100% - 8px);
+        margin-bottom: 8px;
+        margin-left: 8px;
+    }
+
+
+
     .products_head > * + *
     {
         margin-top: 10px;

@@ -711,6 +711,49 @@
 
 
 
+    .tags_cloud
+    {
+        margin-bottom: 40px !important;
+    }
+
+
+    .tags_cloud .slider.owl-carousel
+    {
+        width: 100%;
+    }
+
+
+    .tags_cloud .flex
+    {
+        margin-bottom: -12px;
+        margin-left: -12px;
+        padding-right: 0;
+    }
+
+    .tags_cloud .flex > *
+    {
+        max-width: calc(100% - 12px);
+        margin-bottom: 12px;
+        margin-left: 12px;
+    }
+
+
+    .tags_cloud .spoler_btn
+    {
+        position: relative;
+        bottom: 0;
+
+        margin-top: 16px;
+        margin-left: auto;
+    }
+
+    .tags_cloud .flex + .spoler_btn
+    {
+        margin-bottom: 0;
+    }
+
+
+
     .cart_info .titles
     {
         display: none;
